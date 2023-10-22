@@ -3,7 +3,7 @@ const searchBtn = document.querySelector("#searchbtn");
 let phoneContainer = document.querySelector("#phone-container");
 let loading = document.querySelector("#loading");
 
-async function pageload(searchphn) {
+async function pageload() {
   const res = await fetch(
     `https://openapi.programming-hero.com/api/phones?search=apple`
   );

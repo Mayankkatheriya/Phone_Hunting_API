@@ -67,6 +67,7 @@ nav {
   margin-bottom: -18rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   display: grid;
+  align-items: end;
 }
 img {
   max-width: 100%;
